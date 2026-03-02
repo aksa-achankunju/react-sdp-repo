@@ -9,7 +9,6 @@ const ManagerLogin = () => {
     password: '',
   });
   const [error, setError] = useState('');
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
